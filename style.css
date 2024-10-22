@@ -1,0 +1,19 @@
+*{
+  padding: 0px;
+  margin: 0px;
+box-sizing: border-box;
+}
+
+
+@media screen and (width < 500px) {
+  body{
+    text-align: center;
+  }
+}
+
+
+@media screen and (width > 500px) {
+  body{
+    text-align: left;
+  }
+}
